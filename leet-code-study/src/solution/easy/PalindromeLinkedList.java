@@ -1,4 +1,4 @@
-package solution.medium;
+package solution.easy;
 
 import java.util.Arrays;
 import java.util.Stack;
