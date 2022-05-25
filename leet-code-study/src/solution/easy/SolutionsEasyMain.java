@@ -2,8 +2,8 @@ package solution.easy;
 
 import java.util.Arrays;
 
-import baseClass.TreeNode;
 import baseClass.ListNode;
+import baseClass.TreeNode;
 
 public class SolutionsEasyMain {
 
@@ -23,10 +23,12 @@ public class SolutionsEasyMain {
 		// TreeNode.makeTree(null);
 		System.out.println(new MaxDepth().maxDepth(TreeNode.makeTreeFromList(null)));
 		
+		System.out.println("234. Palindrome Linked List=======");
 		// 234. Palindrome Linked List
 		ListNode head = ListNode.makeListNodeFromList(Arrays.asList(1,2,2,1));
 		System.out.println(new PalindromeLinkedList().isPalindrome(head));
 		
+		System.out.println("283. Move Zeroes=======");
 		// 283. Move Zeroes
 		int [] nums = {0,1,0,3,12};
 		new MoveZeroes().moveZeroes(nums);
