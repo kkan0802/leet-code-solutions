@@ -1,6 +1,5 @@
 package solution.easy;
 
-import java.util.Arrays;
 import java.util.Stack;
 
 import baseClass.ListNode;
