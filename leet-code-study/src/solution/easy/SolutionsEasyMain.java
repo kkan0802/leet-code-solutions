@@ -3,6 +3,7 @@ package solution.easy;
 import java.util.Arrays;
 
 import baseClass.TreeNode;
+import baseClass.ListNode;
 
 public class SolutionsEasyMain {
 
@@ -21,6 +22,10 @@ public class SolutionsEasyMain {
 
 		// TreeNode.makeTree(null);
 		System.out.println(new MaxDepth().maxDepth(TreeNode.makeTreeFromList(null)));
+		
+		// 234. Palindrome Linked List
+		ListNode head = ListNode.makeListNodeFromList(Arrays.asList(1,2,2,1));
+		System.out.println(new PalindromeLinkedList().isPalindrome(head));
 	}
 
 }
