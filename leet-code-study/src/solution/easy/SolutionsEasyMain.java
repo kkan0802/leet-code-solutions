@@ -33,6 +33,16 @@ public class SolutionsEasyMain {
 		int [] nums = {0,1,0,3,12};
 		new MoveZeroes().moveZeroes(nums);
 		System.out.println(Arrays.toString(nums));
+		
+		// 338. Counting Bits
+		System.out.println("338. Counting Bits=======");
+		System.out.println(Arrays.toString(new CountingBits().countBits(0)));
+		System.out.println(Arrays.toString(new CountingBits().countBits(1)));
+		System.out.println(Arrays.toString(new CountingBits().countBits(2)));
+		System.out.println(Arrays.toString(new CountingBits().countBits(3)));
+		System.out.println(Arrays.toString(new CountingBits().countBits(4)));
+		System.out.println(Arrays.toString(new CountingBits().countBits(5)));
+		
 	}
 
 }
