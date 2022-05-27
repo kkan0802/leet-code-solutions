@@ -47,6 +47,13 @@ public class SolutionsEasyMain {
 		// 543. Diameter of Binary Tree
 		System.out.println(new DiameterOfBinaryTree().diameterOfBinaryTree(TreeNode.makeTreeFromList(Arrays.asList(1,2,3,4,5))));
 		System.out.println(new DiameterOfBinaryTree().diameterOfBinaryTree(TreeNode.makeTreeFromList(Arrays.asList(1,2))));
+		
+		System.out.println("1342. Number of Steps to Reduce a Number to Zero=======");
+		// 1342. Number of Steps to Reduce a Number to Zero
+		System.out.println(new NumberOfStepsToReduceANumberToZero().numberOfSteps(14));
+		System.out.println(new NumberOfStepsToReduceANumberToZero().numberOfSteps(8));
+		System.out.println(new NumberOfStepsToReduceANumberToZero().numberOfSteps(123));
+		
 	}
 
 }
