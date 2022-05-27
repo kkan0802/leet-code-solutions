@@ -44,7 +44,7 @@ public class TreeNode {
 
 				TreeNode tempNode = stackNode.peek();
 
-				if (list.get(i + 1) != null) {
+				if (i + 1 < list.size() && list.get(i + 1) != null) {
 					tempNode.right = new TreeNode(list.get(i + 1));
 					stackNode.push(tempNode.right);
 				}
