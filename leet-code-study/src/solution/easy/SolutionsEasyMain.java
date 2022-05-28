@@ -34,14 +34,25 @@ public class SolutionsEasyMain {
 		new MoveZeroes().moveZeroes(nums);
 		System.out.println(Arrays.toString(nums));
 		
-		// 338. Counting Bits
 		System.out.println("338. Counting Bits=======");
+		// 338. Counting Bits
 		System.out.println(Arrays.toString(new CountingBits().countBits(0)));
 		System.out.println(Arrays.toString(new CountingBits().countBits(1)));
 		System.out.println(Arrays.toString(new CountingBits().countBits(2)));
 		System.out.println(Arrays.toString(new CountingBits().countBits(3)));
 		System.out.println(Arrays.toString(new CountingBits().countBits(4)));
 		System.out.println(Arrays.toString(new CountingBits().countBits(5)));
+		
+		System.out.println("543. Diameter of Binary Tree=======");
+		// 543. Diameter of Binary Tree
+		System.out.println(new DiameterOfBinaryTree().diameterOfBinaryTree(TreeNode.makeTreeFromList(Arrays.asList(1,2,3,4,5))));
+		System.out.println(new DiameterOfBinaryTree().diameterOfBinaryTree(TreeNode.makeTreeFromList(Arrays.asList(1,2))));
+		
+		System.out.println("1342. Number of Steps to Reduce a Number to Zero=======");
+		// 1342. Number of Steps to Reduce a Number to Zero
+		System.out.println(new NumberOfStepsToReduceANumberToZero().numberOfSteps(14));
+		System.out.println(new NumberOfStepsToReduceANumberToZero().numberOfSteps(8));
+		System.out.println(new NumberOfStepsToReduceANumberToZero().numberOfSteps(123));
 		
 	}
 
