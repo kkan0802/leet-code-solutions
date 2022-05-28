@@ -54,6 +54,13 @@ public class SolutionsEasyMain {
 		System.out.println(new NumberOfStepsToReduceANumberToZero().numberOfSteps(8));
 		System.out.println(new NumberOfStepsToReduceANumberToZero().numberOfSteps(123));
 		
+		System.out.println("268. Missing Number=======");
+		// 268. Missing Number
+		System.out.println(new MissingNumber().missingNumber(new int[] { 3, 0, 1 }));
+		System.out.println(new MissingNumber().missingNumber(new int[] { 0, 1 }));
+		System.out.println(new MissingNumber().missingNumber(new int[] { 9, 6, 4, 2, 3, 5, 7, 0, 1 }));
+		
+		
 	}
 
 }
