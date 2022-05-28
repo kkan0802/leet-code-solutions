@@ -1,7 +1,5 @@
 package solution.easy;
 
-import java.util.Arrays;
-
 import baseClass.TreeNode;
 
 public class DiameterOfBinaryTree {
