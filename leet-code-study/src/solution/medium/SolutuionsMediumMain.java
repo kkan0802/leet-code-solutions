@@ -7,8 +7,9 @@ import baseClass.ListNode;
 public class SolutuionsMediumMain {
 
 	public static void main(String[] args) {
-		// ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
-		// ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
+		
+		System.out.println("2. Add Two Numbers=======");
+		// 2. Add Two Numbers
 		ListNode l1 = ListNode.makeListNodeFromList(Arrays.asList(2, 4, 3));
 		ListNode l2 = ListNode.makeListNodeFromList(Arrays.asList(5, 6, 4));
 
@@ -16,6 +17,13 @@ public class SolutuionsMediumMain {
 //        ListNode l2 = null;
 
 		new AddTwoNumbers().addTwoNumbers(l1, l2);
+		
+		System.out.println("3. Longest Substring Without Repeating Characters=======");
+		// 3. Longest Substring Without Repeating Characters
+		System.out.println(new LengthOfLongestSubstring().lengthOfLongestSubstring("abcabcbb"));
+		System.out.println(new LengthOfLongestSubstring().lengthOfLongestSubstring("bbbbb"));
+		System.out.println(new LengthOfLongestSubstring().lengthOfLongestSubstring("pwwkew"));
+		
 	}
 
 }
