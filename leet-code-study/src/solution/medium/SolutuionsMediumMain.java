@@ -24,6 +24,16 @@ public class SolutuionsMediumMain {
 		System.out.println(new LengthOfLongestSubstring().lengthOfLongestSubstring("bbbbb"));
 		System.out.println(new LengthOfLongestSubstring().lengthOfLongestSubstring("pwwkew"));
 		
+		System.out.println("5. Longest Palindromic Substring=======");
+		// 5. Longest Palindromic Substring
+		System.out.println(new LongestPalindrome().longestPalindrome("babad"));
+		System.out.println(new LongestPalindrome().longestPalindrome("cbbd"));
+		System.out.println(new LongestPalindrome().longestPalindrome("cbaab"));
+		System.out.println(new LongestPalindrome().longestPalindrome("cbacb"));
+		System.out.println(new LongestPalindrome().longestPalindrome("acacbbc"));
+		
+		
+		
 	}
 
 }
