@@ -37,6 +37,12 @@ public class SolutuionsMediumMain {
 		System.out.println(new ContainerWithMostWater().maxArea(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}));
 		System.out.println(new ContainerWithMostWater().maxArea(new int[]{1, 1}));
 		
+		System.out.println("15. 3Sum=======");
+		// 15. 3Sum
+		System.out.println(new ThreeSum().threeSum(new int[] {-1,0,1,2,-1,-4}));
+		System.out.println(new ThreeSum().threeSum(null));
+		System.out.println(new ThreeSum().threeSum(new int[] {0}));
+		
 		
 		
 	}
