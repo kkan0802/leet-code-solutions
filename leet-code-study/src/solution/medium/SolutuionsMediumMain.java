@@ -32,6 +32,11 @@ public class SolutuionsMediumMain {
 		System.out.println(new LongestPalindrome().longestPalindrome("cbacb"));
 		System.out.println(new LongestPalindrome().longestPalindrome("acacbbc"));
 		
+		System.out.println("11. Container With Most Water=======");
+		// 11. Container With Most Water
+		System.out.println(new ContainerWithMostWater().maxArea(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}));
+		System.out.println(new ContainerWithMostWater().maxArea(new int[]{1, 1}));
+		
 		
 		
 	}
