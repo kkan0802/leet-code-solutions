@@ -42,6 +42,13 @@ public class SolutuionsMediumMain {
 		System.out.println(new ThreeSum().threeSum(new int[] {-1,0,1,2,-1,-4}));
 		System.out.println(new ThreeSum().threeSum(null));
 		System.out.println(new ThreeSum().threeSum(new int[] {0}));
+
+		System.out.println("17. Letter Combinations of a Phone Number=======");
+		// 17. Letter Combinations of a Phone Number
+		System.out.println(new LetterCombinationsOfaPhoneNumber().letterCombinations("23"));
+		System.out.println(new LetterCombinationsOfaPhoneNumber().letterCombinations(""));
+		System.out.println(new LetterCombinationsOfaPhoneNumber().letterCombinations("2"));
+		
 		
 		
 		
