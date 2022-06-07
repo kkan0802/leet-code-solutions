@@ -1,6 +1,7 @@
 package solution.medium;
 
 import java.util.Arrays;
+import java.util.List;
 
 import baseClass.ListNode;
 
@@ -48,8 +49,19 @@ public class SolutuionsMediumMain {
 		System.out.println(new LetterCombinationsOfaPhoneNumber().letterCombinations("23"));
 		System.out.println(new LetterCombinationsOfaPhoneNumber().letterCombinations(""));
 		System.out.println(new LetterCombinationsOfaPhoneNumber().letterCombinations("2"));
-		
-		
+
+		System.out.println("19. Remove Nth Node From End of List=======");
+		// 19. Remove Nth Node From End of List
+		ListNode rslt1 = new RemoveNthFromEnd().removeNthFromEnd(ListNode.makeListNodeFromList(List.of(1, 2, 3, 4, 5)), 2);
+		ListNode rslt2 = new RemoveNthFromEnd().removeNthFromEnd(ListNode.makeListNodeFromList(List.of(1, 2, 3, 4, 5)), 1);
+		ListNode rslt3 = new RemoveNthFromEnd().removeNthFromEnd(ListNode.makeListNodeFromList(List.of(1, 2, 3, 4, 5)), 0);
+		ListNode rslt4 = new RemoveNthFromEnd().removeNthFromEnd(ListNode.makeListNodeFromList(List.of(1)), 1);
+		ListNode rslt5 = new RemoveNthFromEnd().removeNthFromEnd(ListNode.makeListNodeFromList(List.of(1,2)), 1);
+		ListNode rslt6 = new RemoveNthFromEnd().removeNthFromEnd(ListNode.makeListNodeFromList(List.of(1,2)), 2);
+		ListNode rslt7 = new RemoveNthFromEnd().removeNthFromEnd(ListNode.makeListNodeFromList(List.of(1,2)), 3);
+
+		List<ListNode> rsltListNodeList = List.of(rslt1, rslt2, rslt3, rslt5, rslt6, rslt7);
+		rsltListNodeList.forEach(ListNode::confirm);
 		
 		
 	}
