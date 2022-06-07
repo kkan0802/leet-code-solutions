@@ -41,8 +41,9 @@ public class ListNode {
 
 	public static void confirm(ListNode l) {
 		while (l != null) {
-			System.out.println(l.val);
+			System.out.print(l.val + " ");
 			l = l.next;
 		}
+		System.out.println(": lsit confirm>>>>>>>");
 	}
 }
