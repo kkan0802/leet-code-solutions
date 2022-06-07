@@ -62,6 +62,12 @@ public class SolutuionsMediumMain {
 
 		List<ListNode> rsltListNodeList = List.of(rslt1, rslt2, rslt3, rslt5, rslt6, rslt7);
 		rsltListNodeList.forEach(ListNode::confirm);
+
+		System.out.println("22. Generate Parentheses=======");
+		// 22. Generate Parentheses
+		System.out.println(new GenerateParenthesis().generateParenthesis(3));
+		System.out.println(new GenerateParenthesis().generateParenthesis(1));
+		
 		
 		
 	}
