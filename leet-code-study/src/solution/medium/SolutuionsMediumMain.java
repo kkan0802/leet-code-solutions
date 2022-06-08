@@ -68,6 +68,11 @@ public class SolutuionsMediumMain {
 		System.out.println(new GenerateParenthesis().generateParenthesis(3));
 		System.out.println(new GenerateParenthesis().generateParenthesis(1));
 		
+		System.out.println("24. Swap Nodes in Pairs=======");
+		// 24. Swap Nodes in Pairs
+		ListNode rslt = new SwapNodesInPairs().swapPairs(ListNode.makeListNodeFromList(Arrays.asList(1, 2, 3, 4, 5, 6)));
+		
+		
 		
 		
 	}
