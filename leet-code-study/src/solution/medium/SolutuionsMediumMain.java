@@ -71,8 +71,21 @@ public class SolutuionsMediumMain {
 		System.out.println("24. Swap Nodes in Pairs=======");
 		// 24. Swap Nodes in Pairs
 		ListNode rslt = new SwapNodesInPairs().swapPairs(ListNode.makeListNodeFromList(Arrays.asList(1, 2, 3, 4, 5, 6)));
+		ListNode.confirm(rslt);
 		
+		System.out.println("31. Next Permutation=======");
+		// 31. Next Permutation
+		NextPermutation nextPermutation = new NextPermutation();
+		int[] inArr = new int[] { 3, 4, 2, 1 };
 		
+		int[] cpArr = Arrays.copyOf(inArr, inArr.length);
+		
+		while (true) {
+			System.out.println(Arrays.toString(inArr));
+			nextPermutation.nextPermutation(inArr);
+			if (nextPermutation.conFirmEquals(inArr, cpArr)) break;
+		}
+
 		
 		
 	}

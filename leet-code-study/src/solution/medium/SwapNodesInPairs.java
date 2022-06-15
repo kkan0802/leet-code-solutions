@@ -1,7 +1,9 @@
-package hlicp.ipm;
+package solution.medium;
 
 import java.util.LinkedList;
 import java.util.Queue;
+
+import baseClass.ListNode;
 
 public class SwapNodesInPairs {
 
