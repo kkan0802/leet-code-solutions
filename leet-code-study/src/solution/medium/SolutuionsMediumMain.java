@@ -85,6 +85,7 @@ public class SolutuionsMediumMain {
 			nextPermutation.nextPermutation(inArr);
 			if (nextPermutation.conFirmEquals(inArr, cpArr)) break;
 		}
+
 		
 		
 	}
