@@ -85,6 +85,13 @@ public class SolutuionsMediumMain {
 			nextPermutation.nextPermutation(inArr);
 			if (nextPermutation.conFirmEquals(inArr, cpArr)) break;
 		}
+		
+		System.out.println("33. Search in Rotated Sorted Array=======");
+		// 33. Search in Rotated Sorted Array
+		int[] arr = new int[]{4, 5, 6, 7, 0, 1, 2};
+		System.out.println(new SearchInRotatedSortedArray().search(arr, 5));
+		
+		
 
 		
 		
