@@ -102,7 +102,12 @@ public class SolutuionsMediumMain {
 		System.out.println(new CombinationSum().combinationSum(new int[] { 2, 3, 6, 7 }, 7));
 		System.out.println(new CombinationSum().combinationSum(new int[] { 2, 3, 5 }, 8));
 		System.out.println(new CombinationSum().combinationSum(new int[] { 2 }, 1));
-		
+
+		System.out.println("45. Jump Game II=======");
+		// 45. Jump Game II
+		System.out.println(new JumpGameII().jump(new int[] { 2, 3, 1, 1, 4 }));
+		System.out.println(new JumpGameII().jump(new int[] { 2, 1, 3, 2, 4 }));
+		System.out.println(new JumpGameII().jump(new int[] { 2, 3, 0, 1, 4 }));
 		
 		
 		
