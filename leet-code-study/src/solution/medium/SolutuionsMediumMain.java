@@ -96,7 +96,12 @@ public class SolutuionsMediumMain {
 		System.out.println(Arrays.toString(
 				new FindFirstAndLastPositionOfElementInSortedArray()
 					.searchRange(new int[] { 5, 7, 7, 8, 8, 10 }, 8)));
-		
+
+		System.out.println("39. Combination Sum=======");
+		// 39. Combination Sum
+		System.out.println(new CombinationSum().combinationSum(new int[] { 2, 3, 6, 7 }, 7));
+		System.out.println(new CombinationSum().combinationSum(new int[] { 2, 3, 5 }, 8));
+		System.out.println(new CombinationSum().combinationSum(new int[] { 2 }, 1));
 		
 		
 		
