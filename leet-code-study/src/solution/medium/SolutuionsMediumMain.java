@@ -113,8 +113,8 @@ public class SolutuionsMediumMain {
 		// 48. Rotate Image
 		int[][] matrix = new int[][] {{5,1,9,11},{2,4,8,10},{13,3,6,7},{15,14,12,16}};
 		new RotateImage().rotate(matrix);
-		for(int[] arr: matrix) {
-			System.out.println(Arrays.toString(arr));
+		for(int[] tmpArr: matrix) {
+			System.out.println(Arrays.toString(tmpArr));
 		}
 		
 		System.out.println("49. Group Anagrams=======");
@@ -128,7 +128,7 @@ public class SolutuionsMediumMain {
 		// 55. Jump Game
 		System.out.println(new JumpGame().canJump(new int[] {2,3,1,1,4}));
 		System.out.println(new JumpGame().canJump(new int[] {3,2,1,0,4}));
-		System.out.println(new JumpGame().canJump(new int[] {3,2,1,1,4}));
+		System.out.println(new JumpGame().canJump(new int[] {3,2,1,3,4}));
 		
 		
 		
