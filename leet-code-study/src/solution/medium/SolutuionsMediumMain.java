@@ -117,6 +117,14 @@ public class SolutuionsMediumMain {
 			System.out.println(Arrays.toString(arr));
 		}
 		
+		System.out.println("49. Group Anagrams=======");
+		// 49. Group Anagrams
+		GroupAnagrams anagrams = new GroupAnagrams();
+		System.out.println(anagrams.groupAnagrams(new String[] {"eat","tea","tan","ate","nat","bat"}));
+		System.out.println(anagrams.groupAnagrams(new String[] {""}));
+		System.out.println(anagrams.groupAnagrams(new String[] {"a"}));
+		
+		
 		
 
 	}
