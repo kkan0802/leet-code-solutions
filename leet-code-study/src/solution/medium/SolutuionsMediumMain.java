@@ -124,6 +124,12 @@ public class SolutuionsMediumMain {
 		System.out.println(anagrams.groupAnagrams(new String[] {""}));
 		System.out.println(anagrams.groupAnagrams(new String[] {"a"}));
 		
+		System.out.println("55. Jump Game=======");
+		// 55. Jump Game
+		System.out.println(new JumpGame().canJump(new int[] {2,3,1,1,4}));
+		System.out.println(new JumpGame().canJump(new int[] {3,2,1,0,4}));
+		System.out.println(new JumpGame().canJump(new int[] {3,2,1,1,4}));
+		
 		
 		
 
