@@ -130,6 +130,10 @@ public class SolutuionsMediumMain {
 		System.out.println(new JumpGame().canJump(new int[] {3,2,1,0,4}));
 		System.out.println(new JumpGame().canJump(new int[] {3,2,1,3,4}));
 		
+		System.out.println("56. Merge Intervals=======");
+		// 56. Merge Intervals
+		MergeIntervals mergeIntervals = new MergeIntervals();
+		int[][] mergeIntervalsRslt = mergeIntervals.merge(new int[][] {{1,3},{2,3}, {5,6}, {8,8}, {8,10}, {15,18}});
 		
 		
 
