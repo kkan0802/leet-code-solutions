@@ -144,6 +144,16 @@ public class SolutuionsMediumMain {
 		System.out.println(new UniquePaths().uniquePaths(3, 7));
 		System.out.println(new UniquePaths().uniquePaths(3, 2));
 
+		System.out.println("64. Minimum Path Sum=======");
+		// 64. Minimum Path Sum
+		System.out.println(new MinimumPathSum().minPathSum(new int[][] { { 1, 3, 1 }, { 1, 5, 1 }, { 4, 2, 1 } }));
+		System.out.println(new MinimumPathSum().minPathSum(new int[][] { { 1, 2, 3 }, { 4, 5, 6 } }));
+
+		
+		
+		
+		
+		
 	}
 
 }
