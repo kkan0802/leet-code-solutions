@@ -135,6 +135,9 @@ public class SolutuionsMediumMain {
 		MergeIntervals mergeIntervals = new MergeIntervals();
 		int[][] mergeIntervalsRslt = mergeIntervals.merge(new int[][] {{1,3},{2,3}, {5,6}, {8,8}, {8,10}, {15,18}});
 		
+		for(int[] i: mergeIntervalsRslt) {
+			System.out.println(Arrays.toString(i));
+		}
 		
 
 	}
