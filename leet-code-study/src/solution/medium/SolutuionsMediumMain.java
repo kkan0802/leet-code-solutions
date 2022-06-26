@@ -149,8 +149,15 @@ public class SolutuionsMediumMain {
 		System.out.println(new MinimumPathSum().minPathSum(new int[][] { { 1, 3, 1 }, { 1, 5, 1 }, { 4, 2, 1 } }));
 		System.out.println(new MinimumPathSum().minPathSum(new int[][] { { 1, 2, 3 }, { 4, 5, 6 } }));
 
-		
-		
+		System.out.println("73. Set Matrix Zeroes=======");
+		// 73. Set Matrix Zeroes
+		//int[][] matrixSetZeros = new int[][] { { 1, 1, 1 }, { 1, 0, 1 }, { 1, 1, 1 } };
+		int[][] matrixSetZeros = new int[][] { { 0, 1, 2, 0 }, { 3, 4, 5, 2 }, { 1, 3, 1, 5 } };
+		new SetMatrixZeroes().setZeroes(matrixSetZeros);
+		for (int[] is : matrixSetZeros) {
+			System.out.println(Arrays.toString(is));
+		}
+
 		
 		
 		
