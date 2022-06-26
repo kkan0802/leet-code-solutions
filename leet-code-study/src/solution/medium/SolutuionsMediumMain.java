@@ -108,7 +108,7 @@ public class SolutuionsMediumMain {
 		System.out.println(new JumpGameII().jump(new int[] { 2, 3, 1, 1, 4 }));
 		System.out.println(new JumpGameII().jump(new int[] { 2, 1, 3, 2, 4 }));
 		System.out.println(new JumpGameII().jump(new int[] { 2, 3, 0, 1, 4 }));
-		
+
 		System.out.println("48. Rotate Image=======");
 		// 48. Rotate Image
 		int[][] matrix = new int[][] {{5,1,9,11},{2,4,8,10},{13,3,6,7},{15,14,12,16}};
@@ -116,29 +116,33 @@ public class SolutuionsMediumMain {
 		for(int[] tmpArr: matrix) {
 			System.out.println(Arrays.toString(tmpArr));
 		}
-		
+
 		System.out.println("49. Group Anagrams=======");
 		// 49. Group Anagrams
 		GroupAnagrams anagrams = new GroupAnagrams();
 		System.out.println(anagrams.groupAnagrams(new String[] {"eat","tea","tan","ate","nat","bat"}));
 		System.out.println(anagrams.groupAnagrams(new String[] {""}));
 		System.out.println(anagrams.groupAnagrams(new String[] {"a"}));
-		
+
 		System.out.println("55. Jump Game=======");
 		// 55. Jump Game
 		System.out.println(new JumpGame().canJump(new int[] {2,3,1,1,4}));
 		System.out.println(new JumpGame().canJump(new int[] {3,2,1,0,4}));
 		System.out.println(new JumpGame().canJump(new int[] {3,2,1,3,4}));
-		
+
 		System.out.println("56. Merge Intervals=======");
 		// 56. Merge Intervals
 		MergeIntervals mergeIntervals = new MergeIntervals();
 		int[][] mergeIntervalsRslt = mergeIntervals.merge(new int[][] {{1,3},{2,3}, {5,6}, {8,8}, {8,10}, {15,18}});
-		
+
 		for(int[] i: mergeIntervalsRslt) {
 			System.out.println(Arrays.toString(i));
 		}
-		
+
+		System.out.println("62. Unique Paths=======");
+		// 62. Unique Paths
+		System.out.println(new UniquePaths().uniquePaths(3, 7));
+		System.out.println(new UniquePaths().uniquePaths(3, 2));
 
 	}
 
