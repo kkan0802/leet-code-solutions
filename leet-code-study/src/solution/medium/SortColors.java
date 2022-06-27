@@ -7,10 +7,6 @@ public class SortColors {
      */
     public void sortColors(int[] nums) {
 
-        
-        
-        
-        
         for (int i = 0; i < nums.length; i++) {
             int min = nums[i];
             int minIdx = i;
