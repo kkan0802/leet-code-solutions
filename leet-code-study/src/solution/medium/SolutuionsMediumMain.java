@@ -161,6 +161,13 @@ public class SolutuionsMediumMain {
 		System.out.println("74. Search a 2D Matrix=======");
 		// 74. Search a 2D Matrix
 		System.out.println(new SearchA2DMatrix().searchMatrix(new int[][]{{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}}, 3));
+
+		System.out.println("75. Sort Colors=======");
+		// 75. Sort Colors
+		int[] colorArray = new int[]{2, 0, 2, 1, 1, 0};
+		new SortColors().sortColors(colorArray);
+		System.out.println(Arrays.toString(colorArray));
+		
 		
 		
 		
