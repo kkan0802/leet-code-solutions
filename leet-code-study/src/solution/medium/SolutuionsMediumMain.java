@@ -168,6 +168,10 @@ public class SolutuionsMediumMain {
 		new SortColors().sortColors(colorArray);
 		System.out.println(Arrays.toString(colorArray));
 		
+		System.out.println("78. Subsets=======");
+		// 78. Subsets
+		System.out.println(new Subsets().subsets(new int[]{1, 2, 3}));
+		
 		
 		
 		
