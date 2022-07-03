@@ -167,10 +167,17 @@ public class SolutuionsMediumMain {
 		int[] colorArray = new int[]{2, 0, 2, 1, 1, 0};
 		new SortColors().sortColors(colorArray);
 		System.out.println(Arrays.toString(colorArray));
-		
+
 		System.out.println("78. Subsets=======");
 		// 78. Subsets
 		System.out.println(new Subsets().subsets(new int[]{1, 2, 3}));
+
+		System.out.println("79. Word Search=======");
+		// 79. Word Search
+		char[][] wordMatrix = new char[][] { { 'A', 'B', 'C', 'E' }, { 'S', 'F', 'C', 'S' }, { 'A', 'D', 'E', 'E' } };
+		System.out.println(new WordSearch().exist(wordMatrix, "ABCCED"));
+		System.out.println(new WordSearch().exist(wordMatrix, "SEE"));
+		System.out.println(new WordSearch().exist(wordMatrix, "ABCB"));
 		
 		
 		
