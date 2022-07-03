@@ -178,6 +178,11 @@ public class SolutuionsMediumMain {
 		System.out.println(new WordSearch().exist(wordMatrix, "ABCCED"));
 		System.out.println(new WordSearch().exist(wordMatrix, "SEE"));
 		System.out.println(new WordSearch().exist(wordMatrix, "ABCB"));
+
+		System.out.println("96. Unique Binary Search Trees=======");
+		// 96. Unique Binary Search Trees
+		System.out.println(new UniqueBinarySearchTrees().numTrees(3));
+		System.out.println(new UniqueBinarySearchTrees().numTrees(4));
 		
 		
 		
