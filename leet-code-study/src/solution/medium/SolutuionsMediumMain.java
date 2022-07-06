@@ -183,7 +183,11 @@ public class SolutuionsMediumMain {
 		// 96. Unique Binary Search Trees
 		System.out.println(new UniqueBinarySearchTrees().numTrees(3));
 		System.out.println(new UniqueBinarySearchTrees().numTrees(4));
-		
+
+		System.out.println("98. Validate Binary Search Tree=======");
+		// 98. Validate Binary Search Tree
+		System.out.println(new ValidateBinarySearchTree().isValidBST(TreeNode.makeTreeFromList(Arrays.asList(2, 1, 3))));
+		System.out.println(new ValidateBinarySearchTree().isValidBST(TreeNode.makeTreeFromList(Arrays.asList(5,1,4,null,null,3,6))));
 		
 		
 		
