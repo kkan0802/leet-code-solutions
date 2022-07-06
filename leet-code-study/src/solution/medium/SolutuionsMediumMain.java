@@ -188,7 +188,11 @@ public class SolutuionsMediumMain {
 		// 98. Validate Binary Search Tree
 		System.out.println(new ValidateBinarySearchTree().isValidBST(TreeNode.makeTreeFromList(Arrays.asList(2, 1, 3))));
 		System.out.println(new ValidateBinarySearchTree().isValidBST(TreeNode.makeTreeFromList(Arrays.asList(5,1,4,null,null,3,6))));
-		
+
+		System.out.println("102. Binary Tree Level Order=======");
+		// 102. Binary Tree Level Order
+		System.out.println(new BinaryTreeLevelOrder().levelOrder(new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)))));
+		System.out.println(new BinaryTreeLevelOrder().levelOrder(new TreeNode(3, new TreeNode(9, new TreeNode(1), new TreeNode(2)), new TreeNode(20, new TreeNode(15), new TreeNode(7)))));
 		
 		
 		
